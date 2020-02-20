@@ -1,3 +1,5 @@
+var customerNumber = 0;
+
 function takeANumber(currentLine, newComerName) {
 
     currentLine.push(newComerName);
@@ -8,6 +10,28 @@ function takeANumber(currentLine, newComerName) {
 
 }//end takeANumber
 
+
+function takeANumber2() {
+  
+  var message;
+  
+
+  customerNumber++;
+  
+  message = `Welcome, you are customer number ${customerNumber}`;
+  
+  console.log(message);
+  
+  
+  //accepting array of names and greeting each by name 
+  //set up customer count -- showing the full number of custs per day
+  //access customer count and increment by 1 
+  //return string
+  
+}
+takeANumber2();
+takeANumber2();
+takeANumber2();
 
 
 function nowServing(line) {
